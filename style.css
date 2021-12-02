@@ -1,0 +1,70 @@
+body {
+    font-size: 15pt;
+    background: #242853;
+    
+}
+
+#relogio{
+  color: white;
+  text-align: center;
+}
+
+#horas{
+  margin: auto;
+  margin-top: 5rem;
+  width: 30%;
+  border-radius: 8px;
+  text-align: center;
+  background: black;
+  color: red;
+}
+
+img{
+  height: 10rem;
+  margin-top: 4rem;
+  margin-left: 6rem;
+  border: 3px solid;
+  border-radius: 50%;
+  border-color: black;
+  background: black;
+  transition: transform 3s ease;
+  box-shadow: 0 -15px 15px rgba(255,255,250,0.06);
+  inset: 0 -15px 15px rgba(0,0,0,0.05);
+}
+  
+img:hover{
+  border-color: #BD0F0F;
+  transform: scale(1.3);
+  transition: transform 4s ease;
+
+}
+
+h3{
+  color: white;
+  text-align: center;
+  font-size: 28pt;
+}
+
+ 
+.minutos{
+  background: #FFFFFFD6;
+}
+
+.minutos:hover{
+  border-color: #12CA74;
+}
+.minutos{
+	width: 100%
+	height: 100%;
+	top: 0;
+	left: 0;
+}
+
+.minutos{
+	animation: girarponteiro 5s linear infinite;
+}
+@keyframes girarponteiro{
+	from {transform: rotateZ(0deg);}
+	to {transform: rotateZ(360deg);}
+}
+
