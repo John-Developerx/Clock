@@ -1,7 +1,10 @@
 # Clock
+<h2> Inglês </h2>
+<p> Project made with the cell phone. </p>
+<h2> Português </h2>
+<p> Projeto feito com o celular. </p>
 
-<p> Fiz o projeto pensando no mobile, já que uso o celular para estudar. </p>
-
-# Link do projeto
-
+# Project
 <p> https://john-developerx.github.io/Clock/ </p>
+<h2> Technologies used </h2>
+<p> JavaScript | HTML5 | CSS3.
